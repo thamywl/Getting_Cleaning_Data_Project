@@ -1,0 +1,103 @@
+Unique IDs and their descriptive
+================================
+"Test_Subject" - The subjects (70% generated the "Train" data and 30% generated the "Test" data - conducting the specific activities for the experiment (30 subjects)
+"Activity_ID" - The unique ID for each activity (1~6)
+"Activity" - The activity descriptive (6 activities in total)
+"Type" - The identifier of which group the data was generated from ("Train"/"Test")
+
+The Mean and Standard Deviation of the Measured Variables
+==========================================================
+~ Detailed decriptive to reference to feature_info.txt found in the original data set
+~ Total 79 measured variables
+~ General descriptive: 
+	"<data_type><variable type>.<function>.<signal direction>
+<data_type>
+	"t" - time domain signals
+	"FFT" - signal after a Fast Fourier Transform
+<variable type>
+	Detailed decriptive reference to feature_info.txt
+<function>
+	mean - mean
+	std - standard deviation
+<signal direction>
+	'XYZ' - used to denote 3-axial signals in the X, Y and Z directions
+
+"tAcc.mean.X"
+"tAcc.mean.Y"
+"tAcc.mean.Z"
+"tAcc.std.X"
+"tAcc.std.Y"
+"tAcc.std.Z"
+"tGravityAcc.mean.X"
+"tGravityAcc.mean.Y"
+"tGravityAcc.mean.Z"
+"tGravityAcc.std.X"
+"tGravityAcc.std.Y"
+"tGravityAcc.std.Z"
+"tAccJerk.mean.X"
+"tAccJerk.mean.Y"
+"tAccJerk.mean.Z"
+"tAccJerk.std.X"
+"tAccJerk.std.Y"
+"tAccJerk.std.Z"
+"tGyro.mean.X"
+"tGyro.mean.Y"
+"tGyro.mean.Z"
+"tGyro.std.X"
+"tGyro.std.Y"
+"tGyro.std.Z"
+"tGyroJerk.mean.X"
+"tGyroJerk.mean.Y"
+"tGyroJerk.mean.Z"
+"tGyroJerk.std.X"
+"tGyroJerk.std.Y"
+"tGyroJerk.std.Z"
+"tAccMag.mean"
+"tAccMag.std"
+"tGravityAccMag.mean"
+"tGravityAccMag.std"
+"tAccJerkMag.mean"
+"tAccJerkMag.std"
+"tGyroMag.mean"
+"tGyroMag.std"
+"tGyroJerkMag.mean"
+"tGyroJerkMag.std"
+"FFTAcc.mean.X"
+"FFTAcc.mean.Y"
+"FFTAcc.mean.Z"
+"FFTAcc.std.X"
+"FFTAcc.std.Y"
+"FFTAcc.std.Z"
+"FFTAcc.meanFreq.X"
+"FFTAcc.meanFreq.Y"
+"FFTAcc.meanFreq.Z"
+"FFTAccJerk.mean.X"
+"FFTAccJerk.mean.Y"
+"FFTAccJerk.mean.Z"
+"FFTAccJerk.std.X"
+"FFTAccJerk.std.Y"
+"FFTAccJerk.std.Z"
+"FFTAccJerk.meanFreq.X"
+"FFTAccJerk.meanFreq.Y"
+"FFTAccJerk.meanFreq.Z"
+"FFTGyro.mean.X"
+"FFTGyro.mean.Y"
+"FFTGyro.mean.Z"
+"FFTGyro.std.X"
+"FFTGyro.std.Y"
+"FFTGyro.std.Z"
+"FFTGyro.meanFreq.X"
+"FFTGyro.meanFreq.Y"
+"FFTGyro.meanFreq.Z"
+"FFTAccMag.mean"
+"FFTAccMag.std"
+"FFTAccMag.meanFreq"
+"FFTAccJerkMag.mean"
+"FFTAccJerkMag.std"
+"FFTAccJerkMag.meanFreq"
+"FFTGyroMag.mean"
+"FFTGyroMag.std"
+"FFTGyroMag.meanFreq"
+"FFTGyroJerkMag.mean"
+"FFTGyroJerkMag.std"
+"FFTGyroJerkMag.meanFreq"

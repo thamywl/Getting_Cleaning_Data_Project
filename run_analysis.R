@@ -42,10 +42,10 @@ train_data <- read.table("./getnclean_proj_data/UCI HAR Dataset/train/X_train.tx
                          header = FALSE, col.names = factors_id$Variable)
 
 ## Extract the relevant mean and standard deviation measurements
-## Free up the meamoring by replacing the existing file with the relevant data set
+## Free up the memory by replacing the existing file with the relevant data set
 ## Extract the relevant column number that has "mean" or "std" in the column name, case sensitive, 
 ## hence need to check if the table column names are unique
-## Assumption that both test and train data have the same convention for the measured factors and are
+## Assumption that both "test" and "train" data have the same convention for the measured factors and are
 ## placed in the same order 
 i <- grep("mean|std", colnames(test_data))
 
@@ -96,7 +96,7 @@ train_data <- join(train_data,activities_id)
 ## Adding the TYPE column to identify the source of data
 train_data$Type <- "TRAIN"
 
-## Combinging both Types ("Test"/"Train") of data set
+## Combining both Types ("Test"/"Train") of data set
 combined_data <- rbind(test_data,train_data)
 combined_data <- group_by(combined_data, Test_Subject, Activity_ID, Activity, Type)
 
