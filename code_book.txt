@@ -10,15 +10,27 @@ The Mean and Standard Deviation of the Measured Variables
 ~ Detailed decriptive to reference to feature_info.txt found in the original data set
 ~ Total 79 measured variables
 ~ General descriptive: 
-	"<data_type><variable type>.<function>.<signal direction>
+	<variable_type>.<function>.<signal direction>
 <data_type>
 	"t" - time domain signals
-	"FFT" - signal after a Fast Fourier Transform
+	"f" - frequency domain signals
 <variable type>
-	Detailed decriptive reference to feature_info.txt
+	Acc - Body Acceleration, where total acceleration signal obtained from the smartphone accelerometer subtracting gravity (m/s^2)
+	AccJerk - Body linear acceleration derived in time (m/s^3)
+	AccMag - Magnitude of the three-dimensional acceleration signal calculated using the Euclidean norm
+	AccJerkMag - Magnitude of the three-dimensional jerk calculated using the Euclidean norm
+	Gyro - The angular velocity vector measured by the gyroscope for each window sample. (rad/s)
+	GyroJerkMag - Magnitude of the three-dimensional Angular velocity derived in time calculated using the Euclidean norm
+	GyroMag - Magnitude of the three-dimensional angular velocity calculated using the Euclidean norm
+	GravityAcc - Gravity (m/s^2)
+	GravityAccMag - Magnitude of the three-dimensional gravity calculated using the Euclidean norm
+
+
 <function>
 	mean - mean
 	std - standard deviation
+	meanFreq - Weighted average of the frequency components to obtain a mean frequency
+
 <signal direction>
 	'XYZ' - used to denote 3-axial signals in the X, Y and Z directions
 

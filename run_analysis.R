@@ -28,8 +28,8 @@ factors_id <- read.table("./getnclean_proj_data/UCI HAR Dataset/features.txt", s
                             header = FALSE, col.names = c("No.", "Factors"))
 ## Renaming the variable convention to remove unnecessary characters
 factors_id$Variable <- gsub("tBody","t" ,factors_id$Factors)
-factors_id$Variable <- gsub("fBody","FFT" ,factors_id$Variable)
-factors_id$Variable <- gsub("FFTBody","FFT" ,factors_id$Variable)
+factors_id$Variable <- gsub("fBody","f" ,factors_id$Variable)
+factors_id$Variable <- gsub("fBody","f" ,factors_id$Variable)
 factors_id$Variable <- gsub("\\()-","\\." ,factors_id$Variable)
 factors_id$Variable <- gsub("\\()","\\" ,factors_id$Variable)
 
